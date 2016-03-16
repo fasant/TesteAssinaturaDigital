@@ -1,3 +1,9 @@
+/*
+Classe Cliente (Alice): 
+    - Envia Mensagem para servidor (msgOriginal)
+    - Recebe Hash da Mensagem recebida pelo Servidor (serverHash = inFromServer.readLine())
+    - Compara Hash da Mensagem Original (msgHash) com o Hash da Mensagem recebida pelo servidor (serverHash)
+*/
 package bobalice;
 
 import java.io.*;

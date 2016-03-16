@@ -1,3 +1,8 @@
+/* Classe Kriptonita :
+    Possui os Metodos para Resumir, Criptografar e Decriptografar as Mesagens 
+trocadas entre Alice (Cliente) e Bob (Servidor) e Metodo para Criar chaves publica/privada.
+
+*/
 package bobalice;
 
 import java.io.File;

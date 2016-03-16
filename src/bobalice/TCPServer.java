@@ -1,3 +1,8 @@
+/*Classe Servidor (Bob):
+    - Recebe Mensagem do Cliente (msgOriginal = inFromClient.readLine())
+    - Cria Hash da Mensagem Recebida (serverHash = k.hashificando(msgOriginal))
+    - Retorna Hash da Mensagem recebida para o Cliente (outToClient.writeBytes(serverHash))
+*/
 package bobalice;
 
 import java.io.*;
